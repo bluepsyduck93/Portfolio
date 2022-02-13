@@ -1,0 +1,26 @@
+.resume-card{
+  display: grid;
+  grid-template-columns: 25% 75%;
+  border: #61dafb solid 2px;
+  box-shadow: 5px 5px 5px lightsteelblue;
+  margin: 2rem;
+}
+
+.resume-card-name{
+  margin: auto 0.5rem
+}
+.resume-card-image{
+  height: 15rem;
+  width: auto;
+  margin: 0.25rem auto
+}
+
+.resume-card-image-container{
+  border-left: gray solid 1px;
+  margin-left: 0.5rem;
+}
+
+.resume-card-image-error{
+  margin-top: auto;
+  margin-bottom: auto;
+}
