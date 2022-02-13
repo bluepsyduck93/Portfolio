@@ -1,8 +1,14 @@
 import React from 'react'
 import CompanyInfo from "../../components/companyInfo/companyInfo";
 import ProjectCard from "../../components/projectCard/projectCard";
+import BrandInspectorSite from '../../assets/brandinspector.png'
+import BRQCSite from '../../assets/brqc.png'
+import BRQCWireframe from '../../assets/wireframe.png'
 import JandJLogo from '../../assets/jandj.jpeg'
+import PCMillerSite from '../../assets/pcmiller.png'
+import SingleSearchSite from '../../assets/singlesearch.png'
 import TrimbleLogo from '../../assets/trimble.jpeg'
+import UMPSite from '../../assets/ump.png'
 
 export default  function Resume() {
     return(
@@ -17,21 +23,25 @@ export default  function Resume() {
             />
             <ProjectCard
                 name={"Brand Inspector"}
-                image={""}
+                image={BrandInspectorSite}
                 description={"A survey site that helps a user gather survey data, and maintain quality assurance on flagship products"}
                 technology={"Web Components, Node, Express, Javascript"}
             />
             <ProjectCard
                 name={"Digital Surgery Enablement Platform - User Management Portal"}
-                image={""}
+                image={UMPSite}
                 description={"An authentication site that allows hospital managers to register surgeons on the Digital Surgery Platform, allowing them to perform surgeries on the J and J Medical Devices"}
                 technology={"ReactJS, StoryBook, REST APIs"}
             />
             <ProjectCard
                 name={"Bio Research and Quality Compliance Innovative Quality"}
-                image={""}
+                image={BRQCSite}
                 description={"React data-analytics site that helps users understand the J and J Audit Process, and allows them to analyze Audits that they have permission to"}
                 technology={"ReactJS, GraphQL"}
+            />
+            <ProjectCard
+                name={"Bio Research and Quality Compliance Innovative Quality"}
+                image={BRQCWireframe}
             />
             <CompanyInfo
                 name={"Trimble Maps"}
@@ -43,7 +53,7 @@ export default  function Resume() {
             />
             <ProjectCard
                 name={"PC*Miler Web"}
-                image={""}
+                image={PCMillerSite}
                 description={""}
                 technology={"AngularJS, REST APIs"}
             />
@@ -55,7 +65,7 @@ export default  function Resume() {
             />
             <ProjectCard
                 name={"Single Search"}
-                image={""}
+                image={SingleSearchSite}
                 description={""}
                 technology={"Angular2+, REST APIs"}
             />
