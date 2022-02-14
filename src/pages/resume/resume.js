@@ -1,7 +1,7 @@
 import React from 'react'
 import './resume.scss'
 import CompanyInfo from "../../components/companyInfo/companyInfo";
-import ProjectCard from "../../components/projectCard/projectCard";
+import ResumeCard from "../../components/resumeCard/resumeCard";
 import BrandInspectorSite from '../../assets/brandinspector.png'
 import BRQCSite from '../../assets/brqc.png'
 import BRQCWireframe from '../../assets/wireframe.png'
@@ -26,25 +26,25 @@ export default  function Resume() {
                           />
                   </div>
                   <div>
-                          <ProjectCard
+                          <ResumeCard
                               name={"Brand Inspector"}
                               image={BrandInspectorSite}
                               description={"A survey site that helps a user gather survey data, and maintain quality assurance on flagship products"}
                               technology={"Web Components, Node, Express, Javascript"}
                           />
-                          <ProjectCard
+                          <ResumeCard
                               name={"Digital Surgery Enablement Platform - User Management Portal"}
                               image={UMPSite}
                               description={"An authentication site that allows hospital managers to register surgeons on the Digital Surgery Platform, allowing them to perform surgeries on the J and J Medical Devices"}
                               technology={"ReactJS, StoryBook, REST APIs"}
                           />
-                          <ProjectCard
+                          <ResumeCard
                               name={"Bio Research and Quality Compliance Innovative Quality"}
                               image={BRQCSite}
                               description={"React data-analytics site that helps users understand the J and J Audit Process, and allows them to analyze Audits that they have permission to"}
                               technology={"ReactJS, GraphQL"}
                           />
-                          <ProjectCard
+                          <ResumeCard
                               name={"Bio Research and Quality Compliance Innovative Quality"}
                               image={BRQCWireframe}
                           />
@@ -63,19 +63,19 @@ export default  function Resume() {
                           />
                   </div>
                   <div>
-                          <ProjectCard
+                          <ResumeCard
                               name={"PC*Miler Web"}
                               image={PCMillerSite}
                               description={""}
                               technology={"AngularJS, REST APIs"}
                           />
-                          <ProjectCard
+                          <ResumeCard
                               name={"Place Editor"}
                               image={""}
                               description={""}
                               technology={"AngularJS, REST APIs, JWT"}
                           />
-                          <ProjectCard
+                          <ResumeCard
                               name={"Single Search"}
                               image={SingleSearchSite}
                               description={""}

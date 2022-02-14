@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './companyInfo.scss'
 export default  function CompanyInfo({
     name,
     image,
@@ -9,24 +9,24 @@ export default  function CompanyInfo({
     dates
 }) {
     return(
-        <div>
-            <section>
+        <div className="company-info-container">
+            <div className="company-info-logo-name-container">
                 <img src={image}/>
                 <h1>
                     {name}
                 </h1>
+            </div>
+            <div className="company-info-details-container">
                 <h3>
                     {location}
                 </h3>
-            </section>
-            <section>
                 <h3>
                     {jobTitle} - {team}
                 </h3>
                 <h3>
                     {dates}
                 </h3>
-            </section>
+            </div>
         </div>
     )
 }

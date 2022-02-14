@@ -1,23 +1,23 @@
 .resume-card{
-  display: grid;
-  grid-template-columns: 25% 75%;
+  position: relative;
+  text-align: center;
   border: #61dafb solid 2px;
   box-shadow: 5px 5px 5px lightsteelblue;
   margin: 2rem;
 }
 
 .resume-card-name{
-  margin: auto 0.5rem
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
 }
 .resume-card-image{
   height: 15rem;
   width: auto;
-  margin: 0.25rem auto
-}
-
-.resume-card-image-container{
-  border-left: gray solid 1px;
-  margin-left: 0.5rem;
+  margin: 0 auto;
+  opacity: 0.25;
 }
 
 .resume-card-image-error{
