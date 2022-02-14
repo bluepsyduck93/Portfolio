@@ -17,7 +17,7 @@ import SpiritIsland from '../../assets/media/spiritisland.png'
 
 export default  function AboutMe() {
     return (
-        <div>
+        <div className="about-me-container">
             <h1>
                 About Me
             </h1>
