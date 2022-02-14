@@ -54,7 +54,7 @@ export default  function Projects() {
                 <ProjectCard
                     name={"Brave TFT - WIP"}
                     image={BraveTFT}
-                    description={"A website for the purpose of giving a user a random team composition to aim for"}
+                    description={"A website for the purpose of giving a user a random team composition to aim for while playing TFT"}
                     technology={
                         <div className="tech-icons-container">
                             <img className="tech-icon" src={AngularIcon} />

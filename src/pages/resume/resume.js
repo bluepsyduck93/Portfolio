@@ -96,7 +96,7 @@ export default  function Resume() {
                           <ProjectCard
                               name={"PC*Miler Web"}
                               image={PCMillerSite}
-                              description={""}
+                              description={"A website that helps route, and calculate mileage for commercial vehicles"}
                               technology={
                                   <div className="tech-icons-container">
                                       <img className="tech-icon" src={AngularJSIcon}/>
@@ -106,7 +106,7 @@ export default  function Resume() {
                           <ProjectCard
                               name={"Place Editor"}
                               image={""}
-                              description={""}
+                              description={"A website that allows contributors to help manage routes to custom locations"}
                               technology={
                                   <div className="tech-icons-container">
                                       <img className="tech-icon" src={AngularJSIcon}/>
@@ -117,7 +117,7 @@ export default  function Resume() {
                           <ProjectCard
                               name={"Single Search"}
                               image={SingleSearchSite}
-                              description={""}
+                              description={"A website that simply allows you to search for any place, and see it on a map"}
                               technology={
                                   <div className="tech-icons-container">
                                       <img className="tech-icon" src={AngularIcon} />

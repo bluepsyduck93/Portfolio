@@ -35,9 +35,9 @@ export default  function AboutMe() {
                 </div>
             </div>
             <div>
-                <p>
+                <h3>
                     Games that I like to play
-                </p>
+                </h3>
                 <img className="about-me-media" src={League} />
                 <img className="about-me-media" src={FF} />
                 <img className="about-me-media" src={LostArk}/>
@@ -45,15 +45,15 @@ export default  function AboutMe() {
                 <img className="about-me-media" src={Stardew}/>
                 <img className="about-me-media" src={ROR2}/>
                 <img className="about-me-media" src={AnimalCrossing}/>
-                <p>
+                <h3>
                     Books that I have read recently
-                </p>
+                </h3>
                 <img className="about-me-media" src={Becoming}/>
                 <img className="about-me-media" src={CommonGood} />
                 <img className="about-me-media" src={InvisibleMan}/>
-                <p>
+                <h3>
                     Board Games that I have played recently
-                </p>
+                </h3>
                 <img className="about-me-media" src={Gloomhaven} />
                 <img className="about-me-media" src={Cartographers}/>
                 <img className="about-me-media" src={SpiritIsland}/>
