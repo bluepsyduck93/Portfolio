@@ -10,6 +10,11 @@
   margin: 1rem auto;
 }
 
+.resume-card:hover{
+  font-size: 0px;
+  cursor: pointer;
+}
+
 .resume-card-name{
   position: absolute;
   top: 50%;
@@ -25,6 +30,10 @@
   object-fit: contain;
 }
 
+.resume-card-image:hover{
+  opacity: 1.0;
+}
+
 .resume-card-image-error{
   margin-top: auto;
   margin-bottom: auto;
@@ -34,4 +43,23 @@
   margin-bottom: 0.5rem;
   display: flex;
   flex-direction: column;
+}
+
+.project-modal{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80%;
+  width: 80%;
+  border: #9297D3 solid 2px;
+  overflow: scroll;
+  box-shadow: 5px 5px 5px lightsteelblue;
+  background: white;
+}
+
+.modal-image{
+  margin-top: auto;
+  margin-bottom: auto;
+  max-height: 40rem;
 }
