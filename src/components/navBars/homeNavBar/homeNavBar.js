@@ -12,6 +12,9 @@ export default  function HomeNavBar() {
             <div className="nav-bar-tab">
                 About Me
             </div>
+            <div className="nav-bar-tab">
+                Suki
+            </div>
         </div>
     )
 }

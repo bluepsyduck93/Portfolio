@@ -1,0 +1,20 @@
+.about-me-image{
+  height: 20rem;
+  width: auto;
+}
+
+.about-me-media{
+  height: 15rem;
+  width: auto;
+  margin: 0.5rem;
+}
+
+.self-description-container{
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.self-description-text-container{
+  margin: auto 0;
+}
+

@@ -14,6 +14,7 @@ import UMPSite from '../../assets/ump.png'
 export default  function Resume() {
     return(
         <div className="resume-container">
+            <h1>Resume</h1>
           <section id="jandj-resume">
                   <div>
                           <CompanyInfo
@@ -25,7 +26,7 @@ export default  function Resume() {
                               dates={"July 2020 - Current"}
                           />
                   </div>
-                  <div>
+                  <div className="resume-card-container">
                           <ResumeCard
                               name={"Brand Inspector"}
                               image={BrandInspectorSite}
@@ -49,7 +50,6 @@ export default  function Resume() {
                               image={BRQCWireframe}
                           />
                   </div>
-
           </section>
           <section id="trimble-resume">
                   <div>
@@ -62,7 +62,7 @@ export default  function Resume() {
                               dates={"April 2019 - September 2019"}
                           />
                   </div>
-                  <div>
+                  <div className="resume-card-container">
                           <ResumeCard
                               name={"PC*Miler Web"}
                               image={PCMillerSite}
