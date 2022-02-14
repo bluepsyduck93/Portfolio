@@ -6,7 +6,7 @@ import PetPassport from '../../assets/sites/petpassport.png'
 import BraveTFT from '../../assets/sites/bravetft.png'
 export default  function Projects() {
     return(
-        <div>
+        <div className="project-container">
             <h1>Projects</h1>
             <section className="project-card-container">
                 <ProjectCard

@@ -1,11 +1,13 @@
 .resume-card{
   position: relative;
   text-align: center;
-  border: #B6BAE2 solid 2px;
+  border: #9297D3 solid 2px;
   border-radius: 0.3rem;
   box-shadow: 5px 5px 5px lightsteelblue;
-  margin: 2rem;
   background: white;
+  height: 15rem;
+  width: 30rem;
+  margin: 2rem auto;
 }
 
 .resume-card-name{
@@ -17,9 +19,10 @@
 }
 .resume-card-image{
   height: 15rem;
-  width: auto;
+  width: 30rem;
   margin: 0 auto;
   opacity: 0.2;
+  object-fit: contain;
 }
 
 .resume-card-image-error{

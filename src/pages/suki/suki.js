@@ -16,7 +16,7 @@ import Suki13 from '../../assets/suki/suki13.jpg'
 import Suki14 from '../../assets/suki/suki14.jpg'
 export default  function Suki() {
     return(
-        <div>
+        <div className="suki-shrine">
             <h1>Suki Shrine</h1>
             <section className="suki-image-container">
                 <img className="suki-image" src={Suki1}/>
