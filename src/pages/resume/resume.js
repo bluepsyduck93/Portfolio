@@ -1,15 +1,15 @@
 import React from 'react'
 import './resume.scss'
 import CompanyInfo from "../../components/companyInfo/companyInfo";
-import ResumeCard from "../../components/resumeCard/resumeCard";
-import BrandInspectorSite from '../../assets/brandinspector.png'
-import BRQCSite from '../../assets/brqc.png'
-import BRQCWireframe from '../../assets/wireframe.png'
+import ProjectCard from "../../components/projectCard/projectCard";
+import BrandInspectorSite from '../../assets/sites/brandinspector.png'
+import BRQCSite from '../../assets/sites/brqc.png'
+import BRQCWireframe from '../../assets/sites/wireframe.png'
 import JandJLogo from '../../assets/jandj.jpeg'
-import PCMillerSite from '../../assets/pcmiller.png'
-import SingleSearchSite from '../../assets/singlesearch.png'
+import PCMillerSite from '../../assets/sites/pcmiller.png'
+import SingleSearchSite from '../../assets/sites/singlesearch.png'
 import TrimbleLogo from '../../assets/trimble.jpeg'
-import UMPSite from '../../assets/ump.png'
+import UMPSite from '../../assets/sites/ump.png'
 
 export default  function Resume() {
     return(
@@ -27,25 +27,25 @@ export default  function Resume() {
                           />
                   </div>
                   <div className="resume-card-container">
-                          <ResumeCard
+                          <ProjectCard
                               name={"Brand Inspector"}
                               image={BrandInspectorSite}
                               description={"A survey site that helps a user gather survey data, and maintain quality assurance on flagship products"}
                               technology={"Web Components, Node, Express, Javascript"}
                           />
-                          <ResumeCard
+                          <ProjectCard
                               name={"Digital Surgery Enablement Platform - User Management Portal"}
                               image={UMPSite}
                               description={"An authentication site that allows hospital managers to register surgeons on the Digital Surgery Platform, allowing them to perform surgeries on the J and J Medical Devices"}
                               technology={"ReactJS, StoryBook, REST APIs"}
                           />
-                          <ResumeCard
+                          <ProjectCard
                               name={"Bio Research and Quality Compliance Innovative Quality"}
                               image={BRQCSite}
                               description={"React data-analytics site that helps users understand the J and J Audit Process, and allows them to analyze Audits that they have permission to"}
                               technology={"ReactJS, GraphQL"}
                           />
-                          <ResumeCard
+                          <ProjectCard
                               name={"Bio Research and Quality Compliance Innovative Quality"}
                               image={BRQCWireframe}
                           />
@@ -63,19 +63,19 @@ export default  function Resume() {
                           />
                   </div>
                   <div className="resume-card-container">
-                          <ResumeCard
+                          <ProjectCard
                               name={"PC*Miler Web"}
                               image={PCMillerSite}
                               description={""}
                               technology={"AngularJS, REST APIs"}
                           />
-                          <ResumeCard
+                          <ProjectCard
                               name={"Place Editor"}
                               image={""}
                               description={""}
                               technology={"AngularJS, REST APIs, JWT"}
                           />
-                          <ResumeCard
+                          <ProjectCard
                               name={"Single Search"}
                               image={SingleSearchSite}
                               description={""}

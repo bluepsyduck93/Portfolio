@@ -1,10 +1,11 @@
 import React from 'react'
-import './resumeCard.scss'
-export default  function ResumeCard({
+import './projectCard.scss'
+export default  function ProjectCard({
     name,
     image,
     description,
-    technology
+    technology,
+    link
 }) {
     return image ? (
         <div className="resume-card">
