@@ -41,8 +41,8 @@ export default  function Resume() {
                               description={"A survey site that helps a user gather survey data, and maintain quality assurance on flagship products"}
                               technology={
                                 <div className="tech-icons-container">
-                                    <img className="tech-icon" src={WebComponentIcon}/>
-                                    <img className="tech-icon" src={NodeJSIcon} />
+                                    <img className="tech-icon" src={WebComponentIcon} alt={'web component icon'}/>
+                                    <img className="tech-icon" src={NodeJSIcon} alt={'node js icon'}/>
                                 </div>
                               }
                           />
@@ -52,9 +52,9 @@ export default  function Resume() {
                               description={"An authentication site that allows hospital managers to register surgeons to J & J Medical Devices"}
                               technology={
                                   <div className="tech-icons-container">
-                                      <img className="tech-icon" src={ReactJSIcon}/>
-                                      <img className="tech-icon" src={NodeJSIcon} />
-                                      <img className="tech-icon" src={StoryBookIcon} />
+                                      <img className="tech-icon" src={ReactJSIcon} alt={'react js icon'}/>
+                                      <img className="tech-icon" src={NodeJSIcon} alt={'node js icon'}/>
+                                      <img className="tech-icon" src={StoryBookIcon} alt={'story book icon'}/>
                                   </div>
                               }
                           />
@@ -64,8 +64,8 @@ export default  function Resume() {
                               description={"A data-analytics site that helps users visualize the J & J Audit Process, and manage the Audits based on permissions"}
                               technology={
                                   <div className="tech-icons-container">
-                                      <img className="tech-icon" src={ReactJSIcon}/>
-                                      <img className="tech-icon" src={GraphQLIcon} />
+                                      <img className="tech-icon" src={ReactJSIcon} alt={'react js icon'}/>
+                                      <img className="tech-icon" src={GraphQLIcon} alt={'graph ql icon'}/>
                                   </div>
                               }
                           />
@@ -75,7 +75,7 @@ export default  function Resume() {
                               description={"A wireframe made for the BRQC analytics site"}
                               technology={
                                   <div className="tech-icons-container">
-                                      <img className="tech-icon" src={AdobeXDIcon}/>
+                                      <img className="tech-icon" src={AdobeXDIcon} alt={'adobe xd icon'}/>
                                   </div>
                               }
                           />
@@ -99,7 +99,7 @@ export default  function Resume() {
                               description={"A website that helps route, and calculate mileage for commercial vehicles"}
                               technology={
                                   <div className="tech-icons-container">
-                                      <img className="tech-icon" src={AngularJSIcon}/>
+                                      <img className="tech-icon" src={AngularJSIcon} alt={'angular js icon'}/>
                                   </div>
                               }
                           />
@@ -109,8 +109,8 @@ export default  function Resume() {
                               description={"A website that allows contributors to help manage routes to custom locations"}
                               technology={
                                   <div className="tech-icons-container">
-                                      <img className="tech-icon" src={AngularJSIcon}/>
-                                      <img className="tech-icon" src={JWTIcon}/>
+                                      <img className="tech-icon" src={AngularJSIcon} alt={'angular js icon'}/>
+                                      <img className="tech-icon" src={JWTIcon} alt={'j w t icon'}/>
                                   </div>
                               }
                           />
@@ -120,7 +120,7 @@ export default  function Resume() {
                               description={"A website that simply allows you to search for any place, and see it on a map"}
                               technology={
                                   <div className="tech-icons-container">
-                                      <img className="tech-icon" src={AngularIcon} />
+                                      <img className="tech-icon" src={AngularIcon} alt={'angular icon'}/>
                                   </div>
                               }
                           />

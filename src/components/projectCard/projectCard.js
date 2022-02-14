@@ -14,7 +14,7 @@ export default  function ProjectCard({
                     <h3>{name}</h3>
                 </div>
                 <div className="resume-card-image-container">
-                    <img className="resume-card-image" src={image}/>
+                    <img className="resume-card-image" src={image} alt={'project card'}/>
                 </div>
             </div>
             <div>

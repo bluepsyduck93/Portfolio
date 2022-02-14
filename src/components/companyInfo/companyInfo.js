@@ -11,7 +11,7 @@ export default  function CompanyInfo({
     return(
         <div className="company-info-container">
             <div className="company-info-logo-name-container">
-                <img className="company-logo" src={image}/>
+                <img className="company-logo" src={image} alt={'company logo'}/>
                 <h1>
                     {name}
                 </h1>

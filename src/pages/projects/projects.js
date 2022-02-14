@@ -9,7 +9,7 @@ import JupyterIcon from '../../assets/Jupyter.png'
 import ReactJSIcon from '../../assets/reactjs.svg'
 import AngularIcon from "../../assets/angular.png"
 import GitHubIcon from '../../assets/GitHub-Mark-64px.png'
-import NetlifyIcon from '../../assets/netlify.png'
+
 export default  function Projects() {
     return(
         <div className="project-container">
@@ -21,14 +21,14 @@ export default  function Projects() {
                     description={"An analysis of Twitch Chat, sentiment, word clouds, shared word usage"}
                     technology={
                         <div className="tech-icons-container">
-                            <img className="tech-icon" src={PythonIcon}/>
-                            <img className="tech-icon" src={JupyterIcon} />
+                            <img className="tech-icon" src={PythonIcon} alt={'python icon'}/>
+                            <img className="tech-icon" src={JupyterIcon} alt={'juypter icon'}/>
                         </div>
                     }
                     link={
                         <div className="link-container" onClick={()=>{window.open('https://github.com/bluepsyduck93/Twitch-Chat-Analysis')}}>
                             <button className="link-button">
-                                <img className="tech-icon" src={GitHubIcon} />
+                                <img className="tech-icon" src={GitHubIcon} alt={'git hub icon'}/>
                             </button>
                         </div>
                     }
@@ -39,14 +39,14 @@ export default  function Projects() {
                     description={"A quick to make React website for the purpose of teaching new folks on how to translate from design to React site, some instruction is required"}
                     technology={
                         <div className="tech-icons-container">
-                            <img className="tech-icon" src={ReactJSIcon}/>
+                            <img className="tech-icon" src={ReactJSIcon} alt={'react j s icon'}/>
                         </div>
 
                     }
                     link={
                         <div className="link-container">
                             <button className="link-button" onClick={()=>{window.open('https://github.com/bluepsyduck93/Pet_Passport')}}>
-                                <img className="tech-icon" src={GitHubIcon} />
+                                <img className="tech-icon" src={GitHubIcon} alt={'git hub icon'}/>
                             </button>
                         </div>
                     }
@@ -57,7 +57,7 @@ export default  function Projects() {
                     description={"A website for the purpose of giving a user a random team composition to aim for while playing TFT"}
                     technology={
                         <div className="tech-icons-container">
-                            <img className="tech-icon" src={AngularIcon} />
+                            <img className="tech-icon" src={AngularIcon} alt={'angular icon'}/>
                         </div>
                     }
                     link={""}

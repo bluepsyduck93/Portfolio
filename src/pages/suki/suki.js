@@ -19,20 +19,20 @@ export default  function Suki() {
         <div className="suki-shrine">
             <h1>Suki Shrine</h1>
             <section className="suki-image-container">
-                <img className="suki-image" src={Suki1}/>
-                <img className="suki-image" src={Suki2}/>
-                <img className="suki-image" src={Suki3}/>
-                <img className="suki-image" src={Suki4}/>
-                <img className="suki-image" src={Suki5}/>
-                <img className="suki-image" src={Suki6}/>
-                <img className="suki-image" src={Suki7}/>
-                <img className="suki-image" src={Suki8}/>
-                <img className="suki-image" src={Suki9}/>
-                <img className="suki-image" src={Suki10}/>
-                <img className="suki-image" src={Suki11}/>
-                <img className="suki-image" src={Suki12}/>
-                <img className="suki-image" src={Suki13}/>
-                <img className="suki-image" src={Suki14}/>
+                <img className="suki-image" src={Suki1} alt={'suki smiling'}/>
+                <img className="suki-image" src={Suki2} alt={'suki eating juice box'}/>
+                <img className="suki-image" src={Suki3} alt={'suki on cat bed'}/>
+                <img className="suki-image" src={Suki4} alt={'suki on another cat bed'}/>
+                <img className="suki-image" src={Suki5} alt={'sleepy suki'}/>
+                <img className="suki-image" src={Suki6} alt={'suki sleeping strangely'}/>
+                <img className="suki-image" src={Suki7} alt={'suki staring on cat bed'}/>
+                <img className="suki-image" src={Suki8} alt={'suki in cat tree bowl'}/>
+                <img className="suki-image" src={Suki9} alt={'suki next to keyboard'}/>
+                <img className="suki-image" src={Suki10} alt={'suki on lap'}/>
+                <img className="suki-image" src={Suki11} alt={'baby suki in cat tree bowl'}/>
+                <img className="suki-image" src={Suki12} alt={'baby suki with stuffy'}/>
+                <img className="suki-image" src={Suki13} alt={'baby suki on couch'}/>
+                <img className="suki-image" src={Suki14} alt={'tired baby suki'}/>
             </section>
         </div>
     )

@@ -23,7 +23,7 @@ export default  function AboutMe() {
             </h1>
             <div className="self-description-container">
                 <div>
-                    <img className="about-me-image" src={MyPicture}/>
+                    <img className="about-me-image" src={MyPicture} alt={'christine'}/>
                 </div>
                 <div className="self-description-text-container">
                     <p>
@@ -38,25 +38,25 @@ export default  function AboutMe() {
                 <h3>
                     Games that I like to play
                 </h3>
-                <img className="about-me-media" src={League} />
-                <img className="about-me-media" src={FF} />
-                <img className="about-me-media" src={LostArk}/>
-                <img className="about-me-media" src={Pokemon}/>
-                <img className="about-me-media" src={Stardew}/>
-                <img className="about-me-media" src={ROR2}/>
-                <img className="about-me-media" src={AnimalCrossing}/>
+                <img className="about-me-media" src={League} alt={'league'}/>
+                <img className="about-me-media" src={FF} alt={'final fantasy 14'}/>
+                <img className="about-me-media" src={LostArk} alt={'lost ark'}/>
+                <img className="about-me-media" src={Pokemon} alt={'pokemon'}/>
+                <img className="about-me-media" src={Stardew} alt={'stardew'}/>
+                <img className="about-me-media" src={ROR2} alt={'risk of rain 2'}/>
+                <img className="about-me-media" src={AnimalCrossing} alt={'animal crossing'}/>
                 <h3>
                     Books that I have read recently
                 </h3>
-                <img className="about-me-media" src={Becoming}/>
-                <img className="about-me-media" src={CommonGood} />
-                <img className="about-me-media" src={InvisibleMan}/>
+                <img className="about-me-media" src={Becoming} alt={'becoming'}/>
+                <img className="about-me-media" src={CommonGood} alt={'common good'}/>
+                <img className="about-me-media" src={InvisibleMan} alt={'invisible man'}/>
                 <h3>
                     Board Games that I have played recently
                 </h3>
-                <img className="about-me-media" src={Gloomhaven} />
-                <img className="about-me-media" src={Cartographers}/>
-                <img className="about-me-media" src={SpiritIsland}/>
+                <img className="about-me-media" src={Gloomhaven} alt={'gloomhaven'}/>
+                <img className="about-me-media" src={Cartographers} alt={'cartographers'}/>
+                <img className="about-me-media" src={SpiritIsland} alt={'spirit island'}/>
             </div>
         </div>
     )
