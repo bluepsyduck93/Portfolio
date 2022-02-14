@@ -23,6 +23,9 @@ export default  function ProjectCard({
             <div>
                 {description}
             </div>
+            <div>
+                {link}
+            </div>
         </div>
 
     ) : (
@@ -36,6 +39,9 @@ export default  function ProjectCard({
             </div>
             <div>
                 {description}
+            </div>
+            <div>
+                {link}
             </div>
         </div>
 

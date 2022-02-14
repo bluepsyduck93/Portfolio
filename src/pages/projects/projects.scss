@@ -1,5 +1,5 @@
 .project-card-container{
-  background: powderblue;
+  background: white;
   border-radius: 0.4rem;
   padding: 2rem;
   width: 80%;
@@ -9,4 +9,30 @@
 
 .project-container{
   color: #2D5C7D
+}
+
+.tech-icon{
+  height: 32px;
+  width: auto;
+  margin: auto 0.5rem;
+}
+
+.tech-icons-container{
+  margin-bottom: 0.5rem;
+}
+
+.link-container{
+  margin-top: 0.5rem;
+}
+
+.link-button {
+  border: none;
+  background: white;
+  cursor: pointer;
+}
+
+.link-button:focus {
+  border: none;
+  outline: none;
+  background: white;
 }

@@ -4,6 +4,12 @@ import ProjectCard from "../../components/projectCard/projectCard";
 import TwitchChat from '../../assets/sites/twitchchat.png'
 import PetPassport from '../../assets/sites/petpassport.png'
 import BraveTFT from '../../assets/sites/bravetft.png'
+import PythonIcon from '../../assets/python.png'
+import JupyterIcon from '../../assets/Jupyter.png'
+import ReactJSIcon from '../../assets/reactjs.svg'
+import AngularIcon from "../../assets/angular.png"
+import GitHubIcon from '../../assets/GitHub-Mark-64px.png'
+import NetlifyIcon from '../../assets/netlify.png'
 export default  function Projects() {
     return(
         <div className="project-container">
@@ -12,22 +18,48 @@ export default  function Projects() {
                 <ProjectCard
                     name={"Twitch Chat Analysis"}
                     image={TwitchChat}
-                    description={""}
-                    technology={""}
-                    link={"https://github.com/bluepsyduck93/Twitch-Chat-Analysis"}
+                    description={"An analysis of Twitch Chat, sentiment, word clouds, shared word usage"}
+                    technology={
+                        <div className="tech-icons-container">
+                            <img className="tech-icon" src={PythonIcon}/>
+                            <img className="tech-icon" src={JupyterIcon} />
+                        </div>
+                    }
+                    link={
+                        <div className="link-container" onClick={()=>{window.open('https://github.com/bluepsyduck93/Twitch-Chat-Analysis')}}>
+                            <button className="link-button">
+                                <img className="tech-icon" src={GitHubIcon} />
+                            </button>
+                        </div>
+                    }
                 />
                 <ProjectCard
                     name={"Pet Passport Teaching Application"}
                     image={PetPassport}
-                    description={""}
-                    technology={""}
-                    link={""}
+                    description={"A quick to make React website for the purpose of teaching new folks on how to translate from design to React site, some instruction is required"}
+                    technology={
+                        <div className="tech-icons-container">
+                            <img className="tech-icon" src={ReactJSIcon}/>
+                        </div>
+
+                    }
+                    link={
+                        <div className="link-container">
+                            <button className="link-button" onClick={()=>{window.open('https://github.com/bluepsyduck93/Pet_Passport')}}>
+                                <img className="tech-icon" src={GitHubIcon} />
+                            </button>
+                        </div>
+                    }
                 />
                 <ProjectCard
                     name={"Brave TFT - WIP"}
                     image={BraveTFT}
-                    description={""}
-                    technology={""}
+                    description={"A website for the purpose of giving a user a random team composition to aim for"}
+                    technology={
+                        <div className="tech-icons-container">
+                            <img className="tech-icon" src={AngularIcon} />
+                        </div>
+                    }
                     link={""}
                 />
             </section>
