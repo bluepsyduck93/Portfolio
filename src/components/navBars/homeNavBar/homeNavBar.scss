@@ -1,4 +1,5 @@
 .nav-bar-container{
+  background: #9297d3;
   display: flex;
   flex-direction: row;
   border-bottom: #79a8c9 solid 1px;
@@ -6,4 +7,14 @@
 
 .nav-bar-tab{
   padding: 2rem 5rem;
+}
+
+a {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover, a:active, a:focus {
+  color: white;
 }
