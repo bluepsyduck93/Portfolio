@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6fd279d0.css",
-    "main.js": "/static/js/main.05806ac7.js",
+    "main.css": "/static/css/main.ad7cd114.css",
+    "main.js": "/static/js/main.c8dd506b.js",
     "react-syntax-highlighter/refractor-core-import.js": "/static/js/react-syntax-highlighter/refractor-core-import.874fa068.chunk.js",
     "react-syntax-highlighter_languages_refractor_abap.js": "/static/js/react-syntax-highlighter_languages_refractor_abap.45e232ee.chunk.js",
     "react-syntax-highlighter_languages_refractor_actionscript.js": "/static/js/react-syntax-highlighter_languages_refractor_actionscript.436787e1.chunk.js",
@@ -188,13 +188,24 @@
     "static/media/brandinspector.png": "/static/media/brandinspector.0da8c20c92443fb9aee6.png",
     "static/media/lostark.png": "/static/media/lostark.358407fbd0e7a60f8e51.png",
     "static/media/twitchchat.png": "/static/media/twitchchat.e05581b253846029afc0.png",
+    "static/media/Jupyter.png": "/static/media/Jupyter.e62eb6a74a266ae31a7a.png",
     "static/media/invisibleman.png": "/static/media/invisibleman.21fd23c5c01b5b6330ff.png",
+    "static/media/AngularJS.png": "/static/media/AngularJS.f202748c6349f3681e63.png",
     "static/media/ump.png": "/static/media/ump.70981b60181f8a3f7bdd.png",
     "static/media/ff14.png": "/static/media/ff14.177762a7a85862dd2074.png",
+    "static/media/angular.png": "/static/media/angular.b6d2a9dec3e43e0ffb95.png",
     "static/media/thecommongood.png": "/static/media/thecommongood.55d6d9d9a8a0cbc80a4f.png",
+    "static/media/python.png": "/static/media/python.2e65c2b73eddaaf97e06.png",
+    "static/media/adobexd.png": "/static/media/adobexd.d4dee694b4cc88f67dd5.png",
+    "static/media/nodejs.png": "/static/media/nodejs.e6d661aae7e15e226b30.png",
+    "static/media/webcomponents.png": "/static/media/webcomponents.e0cc32a06c50e20ab9a4.png",
+    "static/media/storybook.svg": "/static/media/storybook.89309d0a9c2ff136bb9618c5f1574b7f.svg",
+    "static/media/graphql.svg": "/static/media/graphql.3caafeddeb7dab1f0c45ce24993078e7.svg",
+    "static/media/jwt.svg": "/static/media/jwt.56f1e8c2e3c6e934664375ec002ea50d.svg",
     "index.html": "/index.html",
-    "main.6fd279d0.css.map": "/static/css/main.6fd279d0.css.map",
-    "main.05806ac7.js.map": "/static/js/main.05806ac7.js.map",
+    "static/media/reactjs.svg": "/static/media/reactjs.928f956d9c8ebcffb98a8e917154a81a.svg",
+    "main.ad7cd114.css.map": "/static/css/main.ad7cd114.css.map",
+    "main.c8dd506b.js.map": "/static/js/main.c8dd506b.js.map",
     "refractor-core-import.874fa068.chunk.js.map": "/static/js/react-syntax-highlighter/refractor-core-import.874fa068.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abap.45e232ee.chunk.js.map": "/static/js/react-syntax-highlighter_languages_refractor_abap.45e232ee.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_actionscript.436787e1.chunk.js.map": "/static/js/react-syntax-highlighter_languages_refractor_actionscript.436787e1.chunk.js.map",
@@ -350,7 +361,7 @@
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fd279d0.css",
-    "static/js/main.05806ac7.js"
+    "static/css/main.ad7cd114.css",
+    "static/js/main.c8dd506b.js"
   ]
 }
